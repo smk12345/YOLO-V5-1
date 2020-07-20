@@ -4,6 +4,11 @@ Object detection on custom datatset based on https://github.com/ultralytics/yolo
 
 ## Requirements
 
+```
+$ git clone https://github.com/ultralytics/yolov5.git
+```
+
+
 Python 3.7 or later with all `requirements.txt` dependencies installed, including `torch >= 1.5`. To install run:
 ```bash
 $ pip install -U -r requirements.txt
