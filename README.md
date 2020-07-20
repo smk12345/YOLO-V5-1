@@ -24,18 +24,17 @@ Collect images(`.jpg or .png`) and annotaions (`.xml`) files
 * Convert data to yolo format
 
 
-- i.e. `.xml` file need to convert to `.txt` file   
+  - i.e. `.xml` file need to convert to `.txt` file   
 
-```
-<object-class> <x> <y> <width> <height>
-
-```
-- Move all images and annotations files to `-custom-images/ labels`
-- In folder `custom`, run `$ python convert_xml_to_txt.py` which creates `.txt` file inside of `labels` folder (keep only `.txt` files in `labels` folder)
+  ```
+  <object-class> <x> <y> <width> <height>
+  ```
+  - Move all images and annotations files to `-custom-images/ labels`
+  - In folder `custom`, run `$ python convert_xml_to_txt.py` which creates `.txt` file inside of `labels` folder (keep only `.txt` files in `labels` folder)
 
 * Prepare `train.txt` and `val.txt` files
 
-- In folder `custom`, run `$ python split.py` 
+  - In folder `custom`, run `$ python split.py` 
 
 * Copy `coco128.yaml` file to `custom` folder and edit it according to custom dataset
 
