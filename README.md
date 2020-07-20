@@ -69,10 +69,7 @@ $ python train.py --data ./custom/coco128.yaml --cfg ./model/yolov5s.yaml --weig
 
 ## If training goes well, it generates test and training files in home directory:
 
-
-
-
-<img src="labels.png" width="900">
+<img src="labels.png" width="100">
 
 
 ## Inference
